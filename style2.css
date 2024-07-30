@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    
+}
+
+.h  {
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    height: 80px;
+    margin-top: -20px;
+}
+.n{
+    width: 100%;
+    margin: auto;
+}
+.logo {
+    width: 6%;
+    cursor: pointer;
+}
+.u {
+    display: inline-block;
+    font-size: 19px;
+    margin-top: -20px;
+}
+.t {
+    display: inline-block;
+    padding: 20px;
+    padding-top: 20px;
+ bottom: 31px;
+    position: relative;
+    right: 20px;
+}
+.t:hover {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+}
+.sear {
+    width: 230px;
+    height: 40px;
+    display: inline-block;
+    
+
+}
+.bar {
+    width: 220px;
+    border-radius: 20px;
+    height: 30px;
+    padding-left: 20px;
+ 
+    outline: none;
+    position: absolute;
+    top: 30px;
+    
+}
+.ri-search-line {
+    position: absolute;
+    right: 557px;
+    top: 37px;
+    cursor: pointer;
+    display: inline-block;
+}
+.ri-search-line:hover {
+    background-color: rgba(216, 191, 216, 0.445);
+}
+input:focus {
+    border: 2px solid #059862;
+    
+}
+#tog {
+    font-size: 35px;
+    position: absolute;
+    top: 30px;
+    left: 850px;
+    cursor: pointer;
+}
+#tog:hover {
+   color: #04AA6D;
+}
+.at {
+    color: black;
+}
+
+#spark {
+    font-size: 20px;
+    position: absolute;
+    left: 930px;
+    top: 35px;
+    color: #9763F6;
+}
+
+.plus {
+    color: black;
+ 
+
+}
+
+#csi {
+    font-size: 16px;
+    position: absolute;
+    left: 999px;
+    top: 35px;
+    color: #9763F6;
+}
+.ri-sparkling-fill:hover {
+    background-color: rgba(128, 128, 128, 0.349);
+    cursor: pointer;
+}
+
+.space {
+    font-size: 18px;
+    position: absolute;
+    left: 999px;
+    top: 20px;
+    color: #9763F6;
+}
+.spark:hover {
+    background-color: rgba(128, 128, 128, 0.349);
+    cursor: pointer;
+}
+.space:hover {
+    background-color: rgba(128, 128, 128, 0.349);
+    cursor: pointer;
+}
+.Spaces {
+    color: black;
+}
+#cer {
+color: #9763F6;
+    font-size: 23px;
+    position: absolute;
+    top: 35px;
+    left: 1100px;
+}
+#cer:hover {
+    background-color: rgba(128, 128, 128, 0.349);
+    cursor: pointer;
+}
+.cart {
+    color: black;
+}
+aside {
+    width: 400px;
+    border: 2px solid;
+    margin-top: 20px;
+    overflow: scroll;
+    position: fixed;
+    top: 60px;
+    bottom: 0%;
+    background-color: #CCCCCC;
+    float: left;
+}
+.sa {
+    width: 500px;
+
+
+}
+.content {
+    width:70%;
+    float: right;
+}
